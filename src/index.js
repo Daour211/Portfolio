@@ -29,10 +29,11 @@ import Login from "views/examples/Login.js";
 import Profile from "views/examples/Profile.js";
 import Register from "views/examples/Register.js";
 
+
 ReactDOM.render(
   <BrowserRouter>
     <Switch>
-      <Route path="/" exact render={props => <Portflio {...props} />} />
+      <Route path="/" exact render={props => <Profile {...props} />} />
       <Route
         path="/landing-page"
         exact
